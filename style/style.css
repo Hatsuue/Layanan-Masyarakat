@@ -43,7 +43,7 @@ header {
         align-items: center;
         justify-content: center;
         display: flex;
-        font-size: 30px;
+        font-size: 15px;
       }
 
       .container {
@@ -127,3 +127,34 @@ header {
         size: bold;
         margin-top: 30px;
       }
+
+      footer a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      footer a:hover {
+        text-decoration: underline;
+        color: white;
+      }
+
+      @media screen {
+        .services {
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 600px) {
+        nav a {
+          display: block;
+          margin: 10px 0;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .hero {
+          font-size: 20px;
+          padding: 30px 0;
+        }
+      }
+      
