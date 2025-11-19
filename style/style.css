@@ -1,160 +1,169 @@
 body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        background-color: #ffffff;
-      }
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
 
 header {
-        background-color: #ffd60a;
-        text-align: center;
-        padding: 15px 0;
-        color: #003566;
-      }
-
-      nav {
-        background-color: #d9d9d9;
-        text-align: center;
-        padding: 10px 0;
-      }
-
-      nav a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        margin: 0 15px;
-        font-weight: bold;
-      }
-
-      nav a:hover {
-        text-decoration: underline;
-        color: orange;
-      }
-
-      .hero {
-        text-align: center;
-        padding: 50px 0;
-        height: 400px;
-        color: white;
-        text-shadow: 2px 2px 4px #000000;
-        /* background-color: grey; */
-        background: url("https://images.tokopedia.net/blog-tokopedia-com/uploads/2018/07/kata-kata-17-agustus.jpg")
-        no-repeat center center/cover;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        font-size: 15px;
-      }
-
-      .container {
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-        padding: 20px 0;
-        /* background-color: red; */
-      }
-
-      .services {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
-
-      .service {
-        flex: 1;
-        min-width: 250px;
-        background: #f4f4f4;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        -webkit-border-radius:;
-        -moz-border-radius:;
-        -ms-border-radius:;
-        -o-border-radius:;
+  background-color: #ffd60a;
+  text-align: center;
+  padding: 15px 0;
+  color: #003566;
 }
 
-      .service h3 {
-        color: #0783ef;
-      }
-
-      form {
-        background: #f9f9f9;
-        padding: 20px;
-        border-radius: 10px;
-        -webkit-border-radius:;
-        -moz-border-radius:;
-        -ms-border-radius:;
-        -o-border-radius:;
+nav {
+  background-color: #d9d9d9;
+  text-align: center;
+  padding: 10px 0;
 }
 
-      input,
-      textarea {
-        width: 99%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0 15px;
+  font-weight: bold;
 }
 
-      button {
-        background: #0490e7;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
+nav a:hover {
+  text-decoration: underline;
+  color: orange;
 }
 
-      button:hover {
-        background: #036ca9;
-      }
+.hero-text {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  background: url("https://images.tokopedia.net/blog-tokopedia-com/uploads/2018/07/kata-kata-17-agustus.jpg") no-repeat center center/cover;
 
-      footer {
-        text-align: center;
-        background: orange;
-        color: rgb(0, 0, 0);
-        padding: 10px 0;
-        size: bold;
-        margin-top: 30px;
-      }
+  display: flex;git
+  justify-content: center;
+  align-items: center;
+}
 
-      footer a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        font-weight: bold;
-      }
-      footer a:hover {
-        text-decoration: underline;
-        color: white;
-      }
+/* Batas lebar teks */
+.hero-text .inner {
+  max-width: 700px;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  word-wrap: break-word;
+  padding: 0 15px;
+}
 
-      @media screen {
-        .services {
-          flex-direction: column;
-        }
-      }
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0;
+  /* background-color: red; */
+}
 
-      @media (max-width: 600px) {
-        nav a {
-          display: block;
-          margin: 10px 0;
-        }
-      }
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-      @media (max-width: 400px) {
-        .hero {
-          font-size: 20px;
-          padding: 30px 0;
-        }
-      }
-      
+.service {
+  flex: 1;
+  min-width: 250px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+
+.service h3 {
+  color: #0783ef;
+}
+
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+
+input,
+textarea {
+  width: 99%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button {
+  background: #0490e7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button:hover {
+  background: #036ca9;
+}
+
+footer {
+  text-align: center;
+  background: orange;
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+  size: bold;
+  margin-top: 30px;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media screen {
+  .services {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Responsif HP */
+@media (max-width: 480px) {
+  .hero-text .inner {
+    font-size: 1.3rem;
+    max-width: 90%;
+  }
+}
